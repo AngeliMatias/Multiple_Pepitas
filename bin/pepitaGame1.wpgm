@@ -1,0 +1,16 @@
+import wollok.game.*
+import pepita.*
+
+program PepitaGame {
+	
+//	CONFIG	
+	game.title("Pepita 1")
+	game.height(10)
+	game.width(10)
+	game.ground("suelo.png")
+
+//	VISUALES
+	game.addVisual(pepita1)
+//	START
+	game.start()
+}
